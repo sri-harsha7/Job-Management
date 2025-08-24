@@ -166,10 +166,10 @@ const JobCreation = () => {
             <label>Job Link</label>
             <input
               type="text"
-              name="link"
+              name="jobLink"
               value={formData.jobLink}
-              onChange={handleCancel}
               className="border rounded-lg p-2 my-2 w-full"
+              onChange={handleChange}
             />
           </div>
         </div>
