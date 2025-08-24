@@ -7,7 +7,7 @@ const JobList = () => {
   const { filteredJobs } = useJobContext();
   return (
     <div>
-      <div className="grid grid-cols-4 gap-x-6 px-20 py-4">
+      <div className="grid grid-cols-4 gap-x-2 px-7 py-4">
         {filteredJobs.length ? (
           filteredJobs.map((job) => (
             <div key={job._id ?? job.id} className="mb-5">
