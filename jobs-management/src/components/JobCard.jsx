@@ -57,7 +57,7 @@ const JobCard = ({ logo, job }) => {
 
       <button
         className="mt-4 w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
-        onClick={() => window.open(job?.link, "_blank")}
+        onClick={() => window.open(job?.jobLink, "_blank")}
       >
         Apply Now
       </button>
