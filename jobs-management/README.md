@@ -1,12 +1,39 @@
-# React + Vite
+# Job Portal Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based job portal application for browsing, filtering, and posting job opportunities.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Job Search & Filter** - Search by title, company, location, job type, and salary range
+- **Dynamic Job Cards** - Clean listings with company logos, salary info, and time stamps
+- **Job Creation** - Intuitive form to post new job opportunities
+- **Real-time Updates** - Instant filtering and live job posting
+- **Responsive Design** - Works seamlessly on all devices
+- **Modern UI** - Clean interface with Satoshi font and Material-UI icons
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - Frontend framework
+- **Context API** - State management
+- **Tailwind CSS** - Styling
+- **Material-UI Icons** - UI components
+- **Fetch API** - HTTP client
+- **Satoshi Font** - Custom typography
+
+# Note
+
+- **LPA** Is Calculated as the Maximum Salary for 12 Months
+- **Job Logo** No input Provided For Logo Input Default will be added
+- **Added Some Inputs** Added The Min Exp and Max exp and Job Link inputs for better Experience and for the Validations.
+
+## ⚡ Installation
+
+1. **Clone the repository**
+
+git clone <repository-url>
+cd job-portal-frontend
+
+2. **Install dependencies**
+   npm install
+3. **Start development server**
+   npm run dev
